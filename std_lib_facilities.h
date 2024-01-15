@@ -219,7 +219,7 @@ inline void seed_randint(int s) { get_rand().seed(s); }
 
 //inline int randint(int max) { return randint(0, max); }
 
-//inline double sqrt(int x) { return sqrt(double(x)); }	// to match C++0x
+inline double sqrt(int x) { return sqrt(double(x)); }	// to match C++0x
 
 // container algorithms. See 21.9.   // C++ has better versions of this:
 
